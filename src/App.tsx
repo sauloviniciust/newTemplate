@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     const onMount = async() => {
       
-      const result = await get('/character');
+      const result = await get('character');
       console.log(result);
       }
     onMount();
